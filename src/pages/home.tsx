@@ -11,7 +11,7 @@ const Home = () => {
     queryKey: ['news'],
     queryFn: fetchNews,
   });
-  console.log(data)
+  
 
   if (isLoading) return <div className="text-center ">Loading...</div>;
 
