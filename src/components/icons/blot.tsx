@@ -7,7 +7,7 @@ type BlottIconProps = {
 const BlottIcon = ({ className = 'w-[200px] h-[49px]' }: BlottIconProps) => {
   return (
     <svg
-      // className="w-[200px] h-[49px]"
+      
       className={className}
       viewBox="0 0 200 49"
       fill="none"
